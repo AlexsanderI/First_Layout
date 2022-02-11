@@ -24,11 +24,18 @@
     margin-left: auto;
 }
 
+.header__menu-buton-icon {
+    width: 18px;
+    height: 13px;
+    background-image: url(../img/icon-burger.png);
+    display: inline-block;
+}
+
 .logo__deescription {
     display: none;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 400px) {
     .top-section {
         background-color: #f3c6bd;
         padding-top: 39px;
