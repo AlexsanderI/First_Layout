@@ -598,6 +598,14 @@ html {
   margin-top: 12px;
 }
 
+.tip__discription {
+  margin: 0;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .tip__image {
   margin-top: 29px;
 }
@@ -610,8 +618,8 @@ html {
   margin-top: 20px;
 }
 
-@media screen and (max-width: 400px) {
-  .features {
+@media screen and (min-width: 399px) {
+  .tips {
     display: none;
   }
 }
