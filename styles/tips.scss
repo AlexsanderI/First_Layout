@@ -1,0 +1,50 @@
+.tips {
+    margin-top: 8px;
+}
+
+.tip {
+    padding: 40px 15px 0 15px;
+    border-bottom: 1px solid;
+}
+
+.tip__subtitel {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 34px;
+    color: #009b4d;
+}
+
+.tip__titel {
+    margin: 0;
+    margin-top: 17px;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 34px;
+    /* identical to box height, or 155% */
+    color: #009b4d;
+}
+
+.tip__discription {
+    font-size: 24px;
+    line-height: 34px;
+    margin: 0;
+    margin-top: 12px;
+}
+
+.tip__image {
+    margin-top: 29px;
+}
+
+.tip__image-capture {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: rgba(43, 41, 45, 0.6);
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 400px) {
+    .features {
+        display: none;
+    }
+}
