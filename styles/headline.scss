@@ -24,6 +24,22 @@
     z-index: 1;
 }
 
+.headlime__action-btn {
+    width: 100%;
+}
+
+.head__learn-more-btn {
+    background-color: #fff;
+    color: #3040c4;
+    width: 158px;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 2px;
+    border: none;
+    margin-top: 15px;
+}
+
 @media screen and (min-width: 400px) {
     .headlime {
         position: relative;
@@ -56,6 +72,14 @@
         z-index: 1;
         margin-left: 0;
     }
+    .headlime__action {
+        margin-top: 58px;
+        display: flex;
+    }
+    .head__learn-more-btn {
+        margin-left: 10px;
+        margin-top: 0;
+    }
 }
 
 .headlime__banner {
@@ -65,21 +89,4 @@
     width: 796px;
     height: 448px;
     margin-left: auto;
-}
-
-.headlime__action {
-    margin-top: 58px;
-    display: flex;
-}
-
-.head__learn-more-btn {
-    margin-left: 10px;
-    background-color: #fff;
-    color: #3040c4;
-    width: 158px;
-    height: 48px;
-    font-size: 18px;
-    font-weight: 700;
-    border-radius: 2px;
-    border: none;
 }
