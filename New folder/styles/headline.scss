@@ -40,11 +40,6 @@
     margin-top: 15px;
 }
 
-.headlime__banner {
-    width: 100%;
-    margin-bottom: 36px;
-}
-
 @media screen and (min-width: 400px) {
     .headlime {
         position: relative;
@@ -56,8 +51,8 @@
     }
     .headlime__content {
         position: absolute;
-        margin: 0;
         z-index: 1;
+        // margin: 0;
     }
     .headlime__title {
         width: 754px;
@@ -67,7 +62,7 @@
         line-height: 78px;
         letter-spacing: -0.5px;
         z-index: 1;
-        margin: 0;
+        // margin: 0;
     }
     .headlime__description {
         margin: 34px;
@@ -87,12 +82,13 @@
         margin-left: 10px;
         margin-top: 0;
     }
-    .headlime__banner {
-        position: relative;
-        right: -105px;
-        top: 0;
-        width: 796px;
-        height: 448px;
-        margin-left: auto;
-    }
+}
+
+.headlime__banner {
+    position: relative;
+    right: -105px;
+    top: 0;
+    width: 796px;
+    height: 448px;
+    margin-left: auto;
 }

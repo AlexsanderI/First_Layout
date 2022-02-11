@@ -1,14 +1,11 @@
-@import url(index.scss);
 .about {
+    padding: 46px 15px;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
     background-color: #f4f5f7;
-    padding: 77px 130px 76px 130px;
 }
 
-.artical {
-    width: 555px;
+.artical:last-child {
+    margin-top: 20px;
 }
 
 .artical_titel {
@@ -22,4 +19,18 @@
     font-size: 22px;
     line-height: 32px;
     margin-top: 6px;
+}
+
+@media screen and (min-width: 400px) {
+    .about {
+        display: flex;
+        justify-content: space-between;
+        padding: 77px 130px 76px 130px;
+    }
+    .artical {
+        width: 555px;
+    }
+    .artical:last-child {
+        margin-top: 0;
+    }
 }
